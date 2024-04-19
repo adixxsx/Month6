@@ -1,0 +1,39 @@
+[
+    {
+    "productName": "Капучино",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "140 с",
+    "productImage": "cappuccinoIcon"
+    },
+    {
+    "productName": "Латте",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "140 с",
+    "productImage": "latteIcon"
+    },
+    {
+    "productName": "Американо",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "100 с",
+    "productImage": "americanoIcon"
+    },
+    {
+    "productName": "Раф",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "170 с",
+    "productImage": "rafIcon"
+    },
+    {
+    "productName": "Экспрессо",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "100 с",
+    "productImage": "expressoIcon"
+    },
+    {
+    "productName": "Мокко",
+    "productDescription": "Кофейный напиток",
+    "productPrice": "160 с" ,
+    "productImage": "mokkoIcon"
+    },
+    
+]
