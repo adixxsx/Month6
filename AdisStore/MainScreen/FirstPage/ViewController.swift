@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     private func didTappedButton(){
         splashView.didAuthorizationButtonTapped = {
-            let vc = AuthorizationViewController()
+            let vc = PhoneNumberViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

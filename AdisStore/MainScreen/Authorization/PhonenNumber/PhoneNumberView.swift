@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class AuthorizationView: UIView {
+class PhoneNumberView: UIView {
     
     private let mainImageCofee: UIImageView = {
         let view = UIImageView()
@@ -24,9 +24,9 @@ class AuthorizationView: UIView {
         return view
     }()
     
-    private let phoneNumberTextField: UITextField = {
+     let phoneNumberTextField: UITextField = {
         let view = UITextField()
-        view.placeholder = "555 555 555"
+        view.placeholder = "enter your phone number"
         view.textColor = .black
         view.backgroundColor = UIColor.systemGray3
         view.layer.cornerRadius = 25
@@ -47,7 +47,16 @@ class AuthorizationView: UIView {
         view.backgroundColor = .orange
         view.layer.cornerRadius = 25
         view.addTarget(self, action: #selector(entryButtonTapped), for: .touchUpInside)
-        
+        return view
+    }()
+    
+    private let googleButton: UIButton = {
+        let view = UIButton()
+        view.setTitle("Google", for: .normal)
+        view.backgroundColor = .systemGray4
+        view.layer.cornerRadius = 16
+        view.setTitleColor(.black, for: .normal)
+        view.addTarget(self, action: #selector(googleButtonTapped), for: .touchUpInside)
         return view
     }()
     
@@ -62,6 +71,7 @@ class AuthorizationView: UIView {
     }
     
     var didEntryButtonTapped: (() -> Void)?
+    var didGoogleButtonTapped: (() -> Void)?
     
     private func setupConstraints(){
         backgroundColor = .white
@@ -92,11 +102,26 @@ class AuthorizationView: UIView {
             make.horizontalEdges.equalToSuperview().inset(16)
             make.height.equalTo(56)
         }
+        addSubview(googleButton)
+        
+        googleButton.snp.makeConstraints { make in
+            make.top.equalTo(entryButton.snp.bottom).offset(40)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(80)
+            make.height.equalTo(50)
+           
+            
+        }
     }
     
     @objc
     private func entryButtonTapped(){
         didEntryButtonTapped?()
+    }
+    
+    @objc
+    private func googleButtonTapped(){
+        didGoogleButtonTapped?()
     }
 
 

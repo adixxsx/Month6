@@ -148,6 +148,10 @@ class ProductCell: UICollectionViewCell {
         priceLabel.text = "\(model.idMeal) c"
     }
     
+    func fill2(with model: Productt){
+           nameLabel.text = model.title
+       }
+       
     
     var counter: Int = 1 {
         didSet{
