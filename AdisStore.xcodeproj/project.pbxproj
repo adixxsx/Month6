@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE70A1372BC5EE41009EEAA3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70A1362BC5EE41009EEAA3 /* MainView.swift */; };
-		CE70A13B2BC5EEB3009EEAA3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70A13A2BC5EEB3009EEAA3 /* AuthorizationView.swift */; };
+		CE70A13B2BC5EEB3009EEAA3 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70A13A2BC5EEB3009EEAA3 /* PhoneNumberView.swift */; };
 		CE70A13D2BC5EED6009EEAA3 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70A13C2BC5EED6009EEAA3 /* AuthorizationViewController.swift */; };
 		CE70A1402BC5F127009EEAA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70A13F2BC5F127009EEAA3 /* MainViewController.swift */; };
 		CE9BF0172BD3251F0027F9C2 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0162BD3251F0027F9C2 /* ProductCell.swift */; };
@@ -24,17 +24,26 @@
 		CE9BF0322BD32E4E0027F9C2 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0312BD32E4E0027F9C2 /* ShoppingCartViewController.swift */; };
 		CE9BF0342BD32EA20027F9C2 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0332BD32EA20027F9C2 /* NavigationViewController.swift */; };
 		CE9BF0362BD32ECF0027F9C2 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0352BD32ECF0027F9C2 /* UserProfileViewController.swift */; };
+		CE9BF0382BD996BA0027F9C2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0372BD996BA0027F9C2 /* AuthService.swift */; };
+		CE9BF03C2BD99B7C0027F9C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9BF03B2BD99B7C0027F9C2 /* GoogleService-Info.plist */; };
+		CE9BF03F2BD99CA20027F9C2 /* PhoneNumberCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF03E2BD99CA20027F9C2 /* PhoneNumberCodeView.swift */; };
+		CE9BF0412BD99CCF0027F9C2 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0402BD99CCF0027F9C2 /* PhoneNumberViewController.swift */; };
+		CE9BF0442BD9A04F0027F9C2 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0432BD9A04F0027F9C2 /* EmailView.swift */; };
+		CE9BF0462BD9A0710027F9C2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF0452BD9A0710027F9C2 /* EmailViewController.swift */; };
 		CE9CDF722BC0A58B008D6070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CDF712BC0A58B008D6070 /* AppDelegate.swift */; };
 		CE9CDF742BC0A58B008D6070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CDF732BC0A58B008D6070 /* SceneDelegate.swift */; };
 		CE9CDF762BC0A58B008D6070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CDF752BC0A58B008D6070 /* ViewController.swift */; };
 		CE9CDF7B2BC0A58C008D6070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9CDF7A2BC0A58C008D6070 /* Assets.xcassets */; };
 		CE9CDF7E2BC0A58C008D6070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CDF7C2BC0A58C008D6070 /* LaunchScreen.storyboard */; };
-		CE9CDF892BC0A6F7008D6070 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE9CDF882BC0A6F7008D6070 /* SnapKit */; };
+		D7ABAE0215A48881E08EB216 /* Pods_AdisStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E650F93DB6DC12D04B235A /* Pods_AdisStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CD3D13ADBE7099A213746F1 /* Pods-AdisStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdisStore.release.xcconfig"; path = "Target Support Files/Pods-AdisStore/Pods-AdisStore.release.xcconfig"; sourceTree = "<group>"; };
+		59E650F93DB6DC12D04B235A /* Pods_AdisStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdisStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9EB10374FC53A3EF8DAC73 /* Pods-AdisStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdisStore.debug.xcconfig"; path = "Target Support Files/Pods-AdisStore/Pods-AdisStore.debug.xcconfig"; sourceTree = "<group>"; };
 		CE70A1362BC5EE41009EEAA3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		CE70A13A2BC5EEB3009EEAA3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		CE70A13A2BC5EEB3009EEAA3 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
 		CE70A13C2BC5EED6009EEAA3 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		CE70A13F2BC5F127009EEAA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE9BF0162BD3251F0027F9C2 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		CE9BF0312BD32E4E0027F9C2 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 		CE9BF0332BD32EA20027F9C2 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		CE9BF0352BD32ECF0027F9C2 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		CE9BF0372BD996BA0027F9C2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		CE9BF03B2BD99B7C0027F9C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE9BF03E2BD99CA20027F9C2 /* PhoneNumberCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberCodeView.swift; sourceTree = "<group>"; };
+		CE9BF0402BD99CCF0027F9C2 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		CE9BF0432BD9A04F0027F9C2 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		CE9BF0452BD9A0710027F9C2 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		CE9CDF6E2BC0A58B008D6070 /* AdisStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdisStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9CDF712BC0A58B008D6070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9CDF732BC0A58B008D6070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,13 +80,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9CDF892BC0A6F7008D6070 /* SnapKit in Frameworks */,
+				D7ABAE0215A48881E08EB216 /* Pods_AdisStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D8DAB24D75B4E31EC96894C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9EB10374FC53A3EF8DAC73 /* Pods-AdisStore.debug.xcconfig */,
+				0CD3D13ADBE7099A213746F1 /* Pods-AdisStore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D45C9CDA05C2CCE09F9110E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59E650F93DB6DC12D04B235A /* Pods_AdisStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE70A1382BC5EE79009EEAA3 /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +116,8 @@
 		CE70A1392BC5EE83009EEAA3 /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
-				CE70A13A2BC5EEB3009EEAA3 /* AuthorizationView.swift */,
-				CE70A13C2BC5EED6009EEAA3 /* AuthorizationViewController.swift */,
+				CE9BF0422BD9A03C0027F9C2 /* Email */,
+				CE9BF03D2BD99C780027F9C2 /* PhonenNumber */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -104,6 +136,7 @@
 		CE70A1412BC5F4AE009EEAA3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CE9BF03B2BD99B7C0027F9C2 /* GoogleService-Info.plist */,
 				CE9BF0152BD324F30027F9C2 /* UIColor */,
 				CE9CDF7A2BC0A58C008D6070 /* Assets.xcassets */,
 				CE9CDF7C2BC0A58C008D6070 /* LaunchScreen.storyboard */,
@@ -135,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9BF0242BD327990027F9C2 /* NetworkLayer.swift */,
+				CE9BF0372BD996BA0027F9C2 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -150,11 +184,33 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		CE9BF03D2BD99C780027F9C2 /* PhonenNumber */ = {
+			isa = PBXGroup;
+			children = (
+				CE70A13C2BC5EED6009EEAA3 /* AuthorizationViewController.swift */,
+				CE70A13A2BC5EEB3009EEAA3 /* PhoneNumberView.swift */,
+				CE9BF03E2BD99CA20027F9C2 /* PhoneNumberCodeView.swift */,
+				CE9BF0402BD99CCF0027F9C2 /* PhoneNumberViewController.swift */,
+			);
+			path = PhonenNumber;
+			sourceTree = "<group>";
+		};
+		CE9BF0422BD9A03C0027F9C2 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BF0432BD9A04F0027F9C2 /* EmailView.swift */,
+				CE9BF0452BD9A0710027F9C2 /* EmailViewController.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
 		CE9CDF652BC0A58B008D6070 = {
 			isa = PBXGroup;
 			children = (
 				CE9CDF702BC0A58B008D6070 /* AdisStore */,
 				CE9CDF6F2BC0A58B008D6070 /* Products */,
+				2D8DAB24D75B4E31EC96894C /* Pods */,
+				9D45C9CDA05C2CCE09F9110E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9CDF822BC0A58C008D6070 /* Build configuration list for PBXNativeTarget "AdisStore" */;
 			buildPhases = (
+				66B8A60E608F0FFFC5993064 /* [CP] Check Pods Manifest.lock */,
 				CE9CDF6A2BC0A58B008D6070 /* Sources */,
 				CE9CDF6B2BC0A58B008D6070 /* Frameworks */,
 				CE9CDF6C2BC0A58B008D6070 /* Resources */,
+				AFA53615E997023DAE54FBCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +274,6 @@
 			);
 			name = AdisStore;
 			packageProductDependencies = (
-				CE9CDF882BC0A6F7008D6070 /* SnapKit */,
 			);
 			productName = AdisStore;
 			productReference = CE9CDF6E2BC0A58B008D6070 /* AdisStore.app */;
@@ -265,10 +322,53 @@
 			files = (
 				CE9CDF7E2BC0A58C008D6070 /* LaunchScreen.storyboard in Resources */,
 				CE9CDF7B2BC0A58C008D6070 /* Assets.xcassets in Resources */,
+				CE9BF03C2BD99B7C0027F9C2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66B8A60E608F0FFFC5993064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdisStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA53615E997023DAE54FBCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdisStore/Pods-AdisStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdisStore/Pods-AdisStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdisStore/Pods-AdisStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE9CDF6A2BC0A58B008D6070 /* Sources */ = {
@@ -280,19 +380,24 @@
 				CE9BF01E2BD326C50027F9C2 /* Products.swift in Sources */,
 				CE9BF0322BD32E4E0027F9C2 /* ShoppingCartViewController.swift in Sources */,
 				CE70A13D2BC5EED6009EEAA3 /* AuthorizationViewController.swift in Sources */,
+				CE9BF0442BD9A04F0027F9C2 /* EmailView.swift in Sources */,
 				CE9BF0252BD327990027F9C2 /* NetworkLayer.swift in Sources */,
+				CE9BF0382BD996BA0027F9C2 /* AuthService.swift in Sources */,
 				CE9CDF762BC0A58B008D6070 /* ViewController.swift in Sources */,
 				CE70A1372BC5EE41009EEAA3 /* MainView.swift in Sources */,
 				CE9CDF722BC0A58B008D6070 /* AppDelegate.swift in Sources */,
 				CE9BF0302BD32D950027F9C2 /* TabBar.swift in Sources */,
 				CE9BF0192BD325BE0027F9C2 /* CategoryCell.swift in Sources */,
 				CE9BF0172BD3251F0027F9C2 /* ProductCell.swift in Sources */,
-				CE70A13B2BC5EEB3009EEAA3 /* AuthorizationView.swift in Sources */,
+				CE70A13B2BC5EEB3009EEAA3 /* PhoneNumberView.swift in Sources */,
 				CE9CDF742BC0A58B008D6070 /* SceneDelegate.swift in Sources */,
 				CE9BF0292BD32C080027F9C2 /* JSONParser.swift in Sources */,
 				CE9BF01B2BD325F30027F9C2 /* UIColor.swift in Sources */,
 				CE9BF0202BD327190027F9C2 /* Constants.swift in Sources */,
+				CE9BF0462BD9A0710027F9C2 /* EmailViewController.swift in Sources */,
+				CE9BF0412BD99CCF0027F9C2 /* PhoneNumberViewController.swift in Sources */,
 				CE9BF0272BD328340027F9C2 /* DetailViewController.swift in Sources */,
+				CE9BF03F2BD99CA20027F9C2 /* PhoneNumberCodeView.swift in Sources */,
 				CE9BF0342BD32EA20027F9C2 /* NavigationViewController.swift in Sources */,
 				CE9BF02B2BD32C400027F9C2 /* ProductModel.swift in Sources */,
 			);
@@ -428,6 +533,7 @@
 		};
 		CE9CDF832BC0A58C008D6070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9EB10374FC53A3EF8DAC73 /* Pods-AdisStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +560,7 @@
 		};
 		CE9CDF842BC0A58C008D6070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD3D13ADBE7099A213746F1 /* Pods-AdisStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,14 +618,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CE9CDF882BC0A6F7008D6070 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CE9CDF872BC0A6F7008D6070 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE9CDF662BC0A58B008D6070 /* Project object */;
 }

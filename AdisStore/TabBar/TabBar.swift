@@ -28,6 +28,7 @@ class TabBarController: UITabBarController {
     private func confiigureTabs(){
         let vc1 = MainViewController()
         let vc2 = ShoppingCartViewController()
+        let qrCode = UIViewController()
         let vc3 = NavigationViewController()
         let vc4 = UserProfileViewController()
         
@@ -52,14 +53,16 @@ class TabBarController: UITabBarController {
         tabBar.tintColor = .black
         
         
-        setViewControllers([nav1,nav2,nav3,nav4], animated: true)
+        setViewControllers([nav1,nav2,qrCode,nav3,nav4], animated: true)
     }
     
     private func setupMiddleButton(){
         let middleButton = UIButton(frame: CGRect(x: (self.view.bounds.width / 2) - 25, y: -20, width: 60, height: 60))
-        if let qrCodeIcon = UIImage(systemName: "qrcode.viewfinder") {
-            middleButton.setImage(qrCodeIcon, for: .normal) }
-            middleButton.tintColor = .orange
+        if let originalImage = UIImage(systemName: "qrcode.viewfinder") {
+                    let resizedImage = originalImage.withConfiguration(UIImage.SymbolConfiguration(pointSize: 35))
+            middleButton.setImage(resizedImage, for: .normal)
+                }
+        middleButton.tintColor = .white
             middleButton.backgroundColor = .orange
             middleButton.layer.cornerRadius = 30
             middleButton.layer.masksToBounds = true
